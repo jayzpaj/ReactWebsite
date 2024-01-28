@@ -1,0 +1,177 @@
+.aboutusbackground {
+    position: relative;
+    padding: 3%;
+  }
+  
+  .AboutUsLogo {
+    position: absolute;
+    top: 83px;
+    left: 80px;
+    width: 36%;
+    height: 73.5%;
+  }
+  .background-aboutus {
+    width: 100%;
+    height: 550px
+  }
+
+  .background-aboutUs-content {
+    text-align: center;
+    padding: 20px; /* Adjust as needed */
+    margin-top: -100px;
+}
+
+  .developer-profile {
+      margin-top: 20px;
+  }
+
+  .developer-profile h2 {
+      text-align: center;
+  }
+
+  .developer-gallerys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .developer-photo {
+      width: 200px;
+  }
+
+  .developer-name {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Overlock';
+    font-weight: bold;
+  }
+
+  .developer-names {
+    color: rgb(172, 79, 45);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Overlock';
+    margin-top: -20px;
+  }
+
+  .developer-bio {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Overlock';
+    margin-top: -15px;
+    margin-bottom: 50px;
+  }
+
+  .text-overlays {
+    position: absolute; 
+    top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 0px; 
+    text-align: center;
+  }
+
+  .text-about {
+    position: absolute;
+    padding-left: 5%;
+    top: 32%;
+    left: 65%;
+    right: -7%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    transform: translate(-50%, -50%);
+  
+  }
+  .text-about-head {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Overlock';
+  }
+
+  @media only screen and (min-width: 356px) and (max-width: 766px){
+  
+  .text-overlays {
+    position: absolute; 
+    top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 0px; 
+    text-align: center;
+  }
+  .text-overlays p {
+    font-size: 400%;
+  }
+  
+  .AboutUsLogo {
+    position: absolute;
+    top: 35px;
+    left: 36px;
+    width: 80%;
+    height: 40%;
+  }
+  .text-about {
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    margin-right: -25%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    transform: translate(-50%, -50%);
+  
+  }
+  .text-about-head {
+    font-size: 25px;
+  }
+
+  .background-aboutUs-content {
+    text-align: center;
+    padding: 20px; /* Adjust as needed */
+    margin-top: -50px;
+    margin-bottom: -20%;
+}
+  }
+
+  @media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .text-overlays {
+      position: absolute; 
+      top: 45%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      padding: 0px; 
+      text-align: center;
+    }
+    .text-overlays p {
+      font-size: 480%;
+    }
+    
+    .AboutUsLogo {
+      position: absolute;
+      top: 35px;
+      left: 200px;
+      width: 50%;
+      height: 50%;
+    }
+    .text-about {
+      position: absolute;
+      top: 70%;
+      left: 48%;
+      margin-right: -25%;
+      padding-bottom: 5%;
+      margin-top: 5%;
+      transform: translate(-50%, -50%);
+    
+    }
+    .text-about-head {
+      font-size: 25px;
+    }
+  
+    .background-aboutUs-content {
+      text-align: center;
+      padding: 20px; /* Adjust as needed */
+      margin-top: -50px;
+      margin-bottom: -5%;
+  }
+  }

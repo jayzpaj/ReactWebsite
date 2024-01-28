@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Overlock&display=swap');
+
+body{
+    background-color: #F9D195;
+    font-family: "monaco", monospace;
+    box-sizing: border-box;
+    margin: 0;
+    width: auto;
+}
+h1 {
+  text-align: center;
+}
+
+.Logo{
+    display: flex;
+}
+
+.Logo_img{
+    width: 27%;
+    height: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+
+nav {
+  display: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+button {
+  font-family: 'Overlock';
+  font-size: 25px;
+  margin: 10px;
+  position: relative;
+  padding: 8px 60px;
+  font-weight: 200;
+  border: 1px solid paleturquoise;
+  background-color: white;
+}
+.button-container {
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+button.current{
+  background-color: gray;
+  color: white;
+  cursor: auto;
+  
+}
+
+.button-container .current {
+  cursor: auto;
+}
+
+button:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+.button-link img {
+  width: 50%;
+  height: 50px;
+} 
+
+hr {
+  border: none; /* Remove the default border */
+  height: 2px; /* Set the height of the line */
+  background-color: white; /* Set the background color of the line */
+  margin: 0px auto; /* Add margin above and below the line for spacing */
+  padding: 0.5px;
+  width: 98%;
+}
+
+.background-image {
+  padding-top: 1%;
+  width: 97%; 
+  height: 510px; 
+  filter: brightness(60%);
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    position: relative;
+  }
+  
+.image-button:hover {
+   background-color: gray;
+   transform: scale(1.0);
+   cursor: pointer;
+   color: white
+}
+
+
+.image-button {
+  background-color: white; 
+  color: black; 
+  border: 1%;
+  padding: 10px 50px;
+  position: absolute; 
+  top: 55%;
+  left: 41%;
+  display: flex;
+  cursor: pointer;
+}
+.text-overlay {
+  position: absolute; 
+  top: 38%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  padding: 0px; 
+  text-align: center;
+}
+.text-overlay p{
+  margin: 0; 
+  padding: 0; 
+}
+.image-text {
+  color: white; 
+  font-size: 75px; 
+  text-align: center; 
+  font-family: 'Covered by Your Grace';
+}
+.images-text {
+  color: white; 
+  font-size: 25px; 
+  text-align: center; 
+  font-family: 'Overlock';
+}
+.image-text-menu,
+.image-text-about,
+.image-text-contact{
+  color: white; 
+  font-size: 100px; 
+  text-align: center; 
+  letter-spacing: 5px;
+  font-family: 'Covered by Your Grace';
+}
+.text-overlay-menu,
+.text-overlay-about,
+.text-overlay-contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px;
+}
+
+.imagebox {
+  display: flex;
+  justify-content: center; /* Horizontally center the child elements */
+  align-items: center; /* Vertically center the child elements */
+}
+
+h3 {
+  font-family: 'Covered by Your Grace';
+  font-size: 30px;
+  word-break: break-all;
+  letter-spacing: 5px;
+  margin-top: 2%;
+}
+.content p {
+  font-family: 'Overlock';
+  font-size: 20px;
+  text-align: center;
+  padding-left: 2%;
+  margin-left: 0%;
+  margin-top: -5%;
+}
+.content img {
+  border: 4px solid #775118;
+}
+
+.content {
+  margin: 10px;
+  padding: 10px;
+}
+
+.columns {
+  float: left;
+  text-align: center;
+  width: 33%;
+  margin-right: 0%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.background img {
+  width: 100%;
+  height: auto;
+}
+/* Footer */
+
+.Footer {
+  margin-top: 2%;
+}
+
+.CupcakeLogo {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.CupcakeLogo img{
+  position: absolute;
+  width: 7%;
+  height: auto;
+  margin-left: 1px;
+  margin-right: auto;
+  margin-top: -130px;
+}
+
+.Cupcaketext {
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 50%;
+  margin-right: auto;
+  margin-top: -58px;
+  font-family: 'Overlock'
+}
+
+.Design img {
+  width: 98%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.Icecup_img {
+  width: 8%;
+  height: 9%;
+  margin-left: -135px;
+  margin-right: auto;
+  margin-top: -15px;
+}
+.Icecuptext {
+  font-size: 20px;
+  text-align: center;
+  margin-left: -135px;
+  margin-right: auto;
+  margin-top: -10px;
+  font-family: 'Overlock'
+}
+.facebook_img {
+  width: 28px;
+  height: 28px;
+  margin-left: -135px;
+  margin-right: auto;
+  margin-top: -15px;
+}
+
+.viewinthemap {
+  text-align: center;
+  margin-left: 125px;
+  margin-right: auto;
+  margin-top: -40px;
+}
+.viewinthemap a {
+  color: inherit;
+}
+
+.FacebookLogo:hover {
+  transform: scale(1.1);
+}
+.FacebookLogo img {
+  transition: transform 0.3s; 
+} 
+
+ @media only screen and (min-width: 767px) and (max-width: 1023px) {
+
+  .Logo_img{
+      margin-left: 35%;
+  }
+  
+  button {
+    font-family: 'Overlock';
+    font-size: 20px;
+    margin: 5px;
+    position: relative;
+    padding: 5px 25px;
+    font-weight: 200;
+  }
+  
+  .button-container {
+    margin-left: -20px;
+  }
+  
+  .button-link{
+    width: 50px;
+    height:39px;
+  } 
+  
+  .button-links{
+    margin-top: -5px;
+    margin-left: -4px;
+    width: 50px;
+    height: 55px;
+  } 
+  
+  hr {
+    margin-left: 10px;
+    width: 98%;
+  }
+  
+  .background-image {
+    margin-left: 3px;
+    width: 96%; 
+    height: 350px; 
+    filter: brightness(60%);
+  }
+  
+  .text-overlay {
+    top: 38%; 
+    margin-left: 1%; 
+    margin-right: -20%;
+  }
+  
+  .image-text {
+    font-size: 60px;   
+  }
+  .images-text {
+    font-size: 25px; 
+  }
+  
+  .image-button {
+    padding: 8px 28px;
+    position: absolute; 
+    top: 65%;
+    left: 40%;
+    font-size: 120%;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  h3 {
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .content p {
+    font-size: 25px;
+    padding-left: 2%;
+    margin-left: 0%;
+    margin-top: -5%;
+  }
+  
+  .columns {
+    width: 80%;
+    margin-left: 9.5%;
+  }
+  
+  .background img {
+    width: 101%;
+    height: auto;
+  }
+  .Design img {
+    width: 99%;
+  }
+  
+  .CupcakeLogo img{
+    width: 18%;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top: -175px;
+  }
+  
+  .Cupcaketext {
+    font-size: 23px;
+    margin-left: 53%;
+    margin-top: -75px;
+  }
+  .Icecup_img {
+    width: 20%;
+    height: 10%;
+    margin-left: -155px;
+    margin-top: 1%;
+  }
+  .Icecuptext {
+    font-size: 23px;
+    text-align: center;
+    margin-left: -155px;
+  }
+  .facebook_img {
+    width: 35px;
+    height: 35px;
+    margin-left: -155px;
+  }
+  
+  .viewinthemap {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: -40px;
+    margin-bottom: 5%;
+  }
+  .viewinthemap a {
+    color: inherit;
+    font-size: 100%;
+  }
+  
+  .FacebookLogo:hover {
+    transform: scale(1.1);
+  }
+  .FacebookLogo img {
+    transition: transform 0.3s; 
+  } 
+  }
+
+
+  @media only screen and (min-width: 356px) and (max-width: 766px){
+
+    .Logo_img{
+        margin-left: 38%;
+    }
+    
+    button {
+      font-family: 'Overlock';
+      font-size: 10px;
+      margin: 5px;
+      position: relative;
+      padding: 5px 10px;
+      font-weight: 200;
+    }
+    
+    .button-container {
+      margin-left: -20px;
+    }
+    
+    .button-link{
+      width: 28px;
+      height:23px;
+    } 
+    
+    .button-links{
+      margin-top: -5px;
+      margin-left: -4px;
+      width: 28px;
+      height: 35px;
+    } 
+    
+    hr {
+      margin-left: 10px;
+      width: 95%;
+    }
+    
+    .background-image {
+      margin-left: 3px;
+      width: 96%; 
+      height: 280px; 
+      filter: brightness(60%);
+    }
+    
+    .text-overlay {
+      top: 38%; 
+      margin-left: 1%; 
+      margin-right: -20%;
+    }
+    
+    .image-text {
+      font-size: 40px;   
+    }
+    .images-text {
+      font-size: 15px; 
+    }
+    
+    .image-button {
+      padding: 5px 20px;
+      position: absolute; 
+      top: 65%;
+      left: 34%;
+      font-size: 100%;
+      display: flex;
+      cursor: pointer;
+    }
+    
+    h3 {
+      font-size: 30px;
+      letter-spacing: 3px;
+      margin-top: 2%;
+      margin-left: 2%;
+    }
+    .content p {
+      font-size: 20px;
+      padding-left: 2%;
+      margin-left: 0%;
+      margin-top: -5%;
+    }
+    
+    .columns {
+      width: 98%;
+    }
+    
+    .background img {
+      width: 101%;
+      height: auto;
+    }
+    .Design img {
+      width: 99%;
+    }
+    
+    .CupcakeLogo img{
+      width: 20%;
+      margin-left: -35px;
+      margin-right: auto;
+      margin-top: -105px;
+    }
+    
+    .Cupcaketext {
+      font-size: 18px;
+      margin-left: 40%;
+      margin-top: -45px;
+    }
+    .Icecup_img {
+      width: 20%;
+      height: 10%;
+      margin-left: 5px;
+      margin-top: 1%;
+    }
+    .Icecuptext {
+      font-size: 18px;
+      text-align: center;
+      margin-left: 5px;
+    }
+    .facebook_img {
+      width: 25px;
+      height: 25px;
+      margin-left: 5px;
+    }
+    
+    .viewinthemap {
+      text-align: center;
+      margin-left: 12px;
+      margin-right: auto;
+      margin-top: 120px;
+      margin-bottom: 5%;
+    }
+    .viewinthemap a {
+      color: inherit;
+      font-size: 80%;
+    }
+    
+    .FacebookLogo:hover {
+      transform: scale(1.1);
+    }
+    .FacebookLogo img {
+      transition: transform 0.3s; 
+    } 
+    }
+  
+  

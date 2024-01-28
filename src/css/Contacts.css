@@ -1,0 +1,223 @@
+.white {
+    background-color: white;
+    width: 96%;
+    height: 570px;
+    margin-top: -7%;
+    margin-left: 2%;
+  }
+
+  .text-overlays {
+    position: absolute; 
+    top: 45%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 0px; 
+    text-align: center;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 97%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 8px 23px;
+    border: none;
+    cursor: pointer;
+    margin-left: 86%;
+    border: 1px solid paleturquoise;
+  }
+  
+  input[type=submit]:hover {
+    background-color: gray;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 73px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row {
+    display: flex;
+      justify-content: space-between;
+  }
+  .column img{
+    width: 80%;
+    height: 400px;
+    margin-top: 0%;
+    margin-left: 10%;
+  }
+
+  @media only screen and (min-width: 356px) and (max-width: 766px){
+    .white {
+      background-color: white;
+      width: 96%;
+      height: 710px;
+      margin-top: -0%;
+      margin-left: 2%;
+    }
+  
+    .text-overlays {
+      position: absolute; 
+      top: 45%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      padding: 0px; 
+      text-align: center;
+    }
+    
+    /* Style inputs */
+    input[type=text], select, textarea {
+      width: 97%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      padding: 8px 23px;
+      border: none;
+      cursor: pointer;
+      margin-left: 70%;
+      border: 1px solid paleturquoise;
+    }
+
+    .text {
+      margin-left: -150%;
+      margin-top: -15px;
+    }
+
+    .custom-p {
+      margin-left: -500px;
+      margin-top: -15px;
+    }
+    
+    input[type=submit]:hover {
+      background-color: gray;
+    }
+    
+    /* Create two columns that float next to eachother */
+    .column {
+      float: left;
+      width: 79%;
+      margin-top: 73px;
+      padding: 20px;
+    }
+    .column form {
+      margin-top: 120%;
+      margin-left: -140%;
+    }
+    
+    /* Clear floats after the columns */
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .column img{
+      width: 200%;
+      height: 200px;
+      margin-top: -55%;
+      margin-left: 17%;
+    }
+  .Map {
+    margin-left: -5%;
+  }
+  .Map iframe {
+    width: 88%;
+  }
+  }
+  @media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .white {
+      background-color: white;
+      width: 96%;
+      height: 900px;
+      margin-top: -0%;
+      margin-left: 2%;
+    }
+  
+    .text-overlays {
+      position: absolute; 
+      top: 45%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      padding: 0px; 
+      text-align: center;
+    }
+    
+    /* Style inputs */
+    input[type=text], select, textarea {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      padding: 8px 23px;
+      margin-left: 85%;
+    }
+    
+    input[type=submit]:hover {
+      background-color: gray;
+    }
+
+    .text {
+      margin-left: -95%;
+      margin-top: -15px;
+    }
+
+    .custom-p {
+      margin-left: -500px;
+      margin-top: -15px;
+    }
+    
+    /* Create two columns that float next to eachother */
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 73px;
+      padding: 20px;
+    }
+    .column form {
+      margin-top: 105%;
+      margin-left: -110%;
+    }
+    
+    /* Clear floats after the columns */
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .column img{
+      width: 200%;
+      height: 400px;
+      margin-top: -20%;
+      margin-left: 5%;
+    }
+  .Map {
+    margin-left: -1%;
+  }
+  .Map iframe {
+    width: 93%;
+  }
+  }
+  

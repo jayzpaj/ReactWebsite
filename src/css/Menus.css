@@ -1,0 +1,128 @@
+.Menus {
+    background-color: white;
+    padding: 10px; /* You can adjust the padding as needed */
+    margin: 25px; /* You can adjust the margin as needed */
+    padding-bottom: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+  
+  .color1 {
+    background-color: black;
+    height: 1px; 
+    width: 138%;
+    margin-left: -20%;
+  }
+  
+  div.gallery {
+    margin: 2%;
+    float: left;
+    width: 300px;
+    padding-right: 3%;
+    margin-left: 50px;
+  }
+  
+  div.gallery img {
+    width: 110%;
+    height: 350px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family:'Overlock';
+    font-size: 145%;
+    margin-left: 11%;
+    margin-right: -15%;
+    padding-right: 18%;
+  }
+  
+  .Twos {
+    margin-left: -10%;
+  }
+
+
+  @media only screen and (min-width: 356px) and (max-width: 766px){
+    .Menus {
+      padding: 5px; /* You can adjust the padding as needed */
+      margin: 25px; /* You can adjust the margin as needed */
+      padding-bottom: 1%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      
+    }
+    
+    .color1 {
+      background-color: black;
+      height: 1px; 
+      width: 138%;
+      margin-left: -20%;
+    }
+    
+    div.gallery {
+      margin: 2%;
+      float: left;
+      width: 100px;
+      padding-right: 33%;
+      margin-left: -46.5px;
+    }
+    
+    div.gallery img {
+      width: 250%;
+      height: 250px;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      font-family:'Overlock';
+      font-size: 145%;
+      margin-left: 11%;
+      margin-right: -150%;
+      padding-right: 18%;
+    }
+    
+    .Twos {
+      margin: 2%;
+      float: left;
+      width: 100px;
+      padding-right: 33%;
+      margin-left: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 767px) and (max-width: 1023px) {
+    div.gallery {
+      margin: 2%;
+      float: left;
+      width: 100px;
+      padding-right: 20%;
+      margin-left: 3px;
+    }
+    
+    div.gallery img {
+      width: 250%;
+      height: 250px;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      font-family:'Overlock';
+      font-size: 145%;
+      margin-left: 11%;
+      margin-right: -150%;
+      padding-right: -5%;
+    }
+    
+    .Twos {
+      margin: 2%;
+      float: left;
+      width: 100px;
+      padding-right: 20%;
+      margin-left: 3px;
+    }
+  }
